@@ -19,6 +19,7 @@ body {
 a {
   transition: all 0.3s ease;
   color: #38B;
+  border-radius: 1rem;
 }
 
 a:hover,
@@ -45,8 +46,8 @@ blockquote {
 }
 
 .tm-section-pad-top {
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .tm-content-box {
@@ -142,6 +143,21 @@ blockquote {
   color: #707070;
 }
 
+#twitter {
+  margin-right: 2%;
+}
+
+#instagram {
+  margin-right: 2%;
+}
+
+#envelope {
+  margin-right: 2%;
+}
+
+#youtube {
+  margin-right: 2%;
+}
 /* Hero */
 
 #infinite {
@@ -196,8 +212,8 @@ blockquote {
 }
 
 .tm-hero-title {
-  font-size: 10rem;
-  text-shadow: 7px 5px 5px #00243c;
+  font-size: 10vw;
+  text-shadow: 7px 5px 5px #003050;
 }
 
 .tm-hero-subtitle {
@@ -266,10 +282,25 @@ blockquote {
 	padding: 20px 0 30px 0;
 }
 
+#ourcrew {
+  color: white;
+  background-image: url(../img/infinite-loop-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  #ourcrew {
+    background-image: url(../img/infinite-loop-02-mobile.jpg);
+  }
+}
+
 /* Testimonials */
 #testimonials {
   color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
+  background-image: url(../img/infinite-loop-099.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
