@@ -234,6 +234,37 @@ blockquote {
   margin-top: -90px;
 }
 
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+#logo path:nth-child(1) {
+  stroke-dasharray: 200px;
+  stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(2) {
+  
+}
+
+#logo path:nth-child(3) {
+  
+}
+
+#logo path:nth-child(4) {
+  
+}
+
+#logo path:nth-child(5) {
+  
+}
+
+#logo path:nth-child(6) {
+  
+}
 .tm-hero-title {
   font-size: 10vw;
   text-shadow: 7px 5px 5px #003050;
