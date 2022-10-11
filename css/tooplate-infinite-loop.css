@@ -19,7 +19,7 @@ body {
 a {
   transition: all 0.3s ease;
   color: #38B;
-  border-radius: 1rem;
+  border-radius: 3px;
 }
 
 a:hover,
@@ -144,24 +144,47 @@ blockquote {
 }
 
 #twitter {
-  margin-right: 2%;
+  font-size: 2rem;
+  margin-right: 4%;
 }
 
 #instagram {
-  margin-right: 2%;
+  font-size: 2rem;
+  margin-right: 4%;
 }
 
 #envelope {
-  margin-right: 2%;
+  font-size: 2rem;
+  margin-right: 4%;
 }
 
 #youtube {
-  margin-right: 2%;
+  font-size: 2rem;
+  margin-right: 4%;
 }
 /* Hero */
 
+#Layer_1 {
+  width: 30%;
+}
+
 #infinite {
-	background-color: #222;
+  background-color: #0a0429;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+ 
+  }
+}
+#infinite {
   background-image: url(../img/infinite-loop-01.jpg);
   background-repeat: no-repeat;
   height: 100vh;
@@ -546,7 +569,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  /*background-image: url(../img/infinite-loop-03.jpg);*/
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
@@ -555,8 +578,13 @@ figure.effect-honey:hover h2 i {
   padding-top: 100px;
 }
 
+.tagtitle {
+  font-size: 2rem;
+  letter-spacing: 6px;
+}
+
 .contact-item {
-  margin-left: 20px;
+  margin-left: 90px;
   margin-bottom: 50px;
 }
 
