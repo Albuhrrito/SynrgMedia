@@ -243,8 +243,8 @@ blockquote {
 }
 
 #logo path:nth-child(1) {
-  stroke-dasharray: 1295;
-  stroke-dashoffset: 1295;
+  stroke-dasharray: 1297;
+  stroke-dashoffset: 1297;
   animation: line-anim 2s ease forwards 0.3s;
 }
 
