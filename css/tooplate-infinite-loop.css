@@ -237,6 +237,7 @@ blockquote {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 70%;
   transform: translate(-50%, -60%);
   animation: fill 0.5s ease forwards 3.5s;
 }
